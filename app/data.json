@@ -1,0 +1,114 @@
+{
+    "events": [
+        {
+            "created": "2022-01-01T10:00:00Z",
+            "event_id": "1",
+            "payload": {
+                "user_id": 123,
+                "memberships": [
+                    {
+                        "source_id": "https://gitlab.csintra.net/gitlab/",
+                        "source_type": "group",
+                        "membership_level": 50
+                    },
+                    {
+                        "source_id": "https://gitlab.csintra.net/gitlab/gitlab-automator",
+                        "source_type": "project",
+                        "membership_level": 40
+                    },
+                    {
+                        "source_id": 3,
+                        "source_type": "group",
+                        "membership_level": 30
+                    },
+                    {
+                        "source_id": 4,
+                        "source_type": "group",
+                        "membership_level": 50
+                    },
+                    {
+                        "source_id": 5,
+                        "source_type": "project",
+                        "membership_level": 20
+                    }
+                ]
+            }
+        },
+        {
+            "created": "2022-01-02T12:00:00Z",
+            "event_id": "2",
+            "payload": {
+                "user_id": 456,
+                "memberships": [
+                    {
+                        "source_id": 3,
+                        "source_type": "project",
+                        "membership_level": 50
+                    },
+                    {
+                        "source_id": 4,
+                        "source_type": "project",
+                        "membership_level": 40
+                    }
+                ]
+            }
+        },
+        {
+            "created": "2022-01-03T14:00:00Z",
+            "event_id": "3",
+            "payload": {
+                "user_id": 789,
+                "memberships": [
+                    {
+                        "source_id": 5,
+                        "source_type": "group",
+                        "membership_level": 50
+                    },
+                    {
+                        "source_id": 6,
+                        "source_type": "project",
+                        "membership_level": 40
+                    }
+                ]
+            }
+        },
+        {
+            "created": "2022-01-04T16:00:00Z",
+            "event_id": "4",
+            "payload": {
+                "user_id": 101112,
+                "memberships": [
+                    {
+                        "source_id": 7,
+                        "source_type": "group",
+                        "membership_level": 50
+                    },
+                    {
+                        "source_id": 8,
+                        "source_type": "project",
+                        "membership_level": 40
+                    }
+                ]
+            }
+        },
+        {
+            "created": "2022-01-05T18:00:00Z",
+            "event_id": "5",
+            "payload": {
+                "user_id": 131415,
+                "memberships": [
+                    {
+                        "source_id": 9,
+                        "source_type": "project",
+                        "membership_level": 50
+                    },
+                    {
+                        "source_id": 10,
+                        "source_type": "group",
+                        "membership_level": 40
+                    }
+                ]
+            }
+        }
+    ]
+}

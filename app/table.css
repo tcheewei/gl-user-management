@@ -1,0 +1,15 @@
+.tremor-AccordionList-root {
+    box-shadow: none;
+}
+
+.single-mover-bulk-select-checkbox {
+    margin: auto;
+    margin-right: 10px;
+}
+
+.created-date-text-right-middle {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* or just do margin: auto will do */
+}
